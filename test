@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>易立配股份有限公司</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <style>
+    header {
+      background-color: #0d6efd;
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+    section {
+      padding: 3rem 1rem;
+    }
+    footer {
+      background-color: #f8f9fa;
+      padding: 2rem;
+      text-align: center;
+      color: #6c757d;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>易立配股份有限公司</h1>
+    <p>智慧支付．整合應用專家</p>
+  </header>
+
+  <section class="container">
+    <h2>公司簡介</h2>
+    <p>
+      易立配致力於提供高效、穩定的 POS 整合方案，專注於智慧支付系統、電子發票串接與行動裝置整合。以「快速部署、穩定運作、專業服務」為核心價值，協助企業提升營運效率。
+    </p>
+  </section>
+
+  <section class="bg-light">
+    <div class="container">
+      <h2>產品展示</h2>
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card">
+            <img src="https://via.placeholder.com/300x200" class="card-img-top" alt="POS機" />
+            <div class="card-body">
+              <h5 class="card-title">POS 整合機</h5>
+              <p class="card-text">高效能、整合性高的 POS 解決方案。</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="https://via.placeholder.com/300x200" class="card-img-top" alt="收銀機" />
+            <div class="card-body">
+              <h5 class="card-title">智慧收銀設備</h5>
+              <p class="card-text">支援多種支付方式，輕鬆管理營運。</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="https://via.placeholder.com/300x200" class="card-img-top" alt="周邊商品" />
+            <div class="card-body">
+              <h5 class="card-title">發票機與周邊</h5>
+              <p class="card-text">電子發票、掃碼機、打印機等全系列配套。</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="container">
+    <h2>聯絡我們</h2>
+    <form>
+      <div class="mb-3">
+        <label for="name" class="form-label">姓名</label>
+        <input type="text" class="form-control" id="name" required />
+      </div>
+      <div class="mb-3">
+        <label for="email" class="form-label">Email</label>
+        <input type="email" class="form-control" id="email" required />
+      </div>
+      <div class="mb-3">
+        <label for="message" class="form-label">留言內容</label>
+        <textarea class="form-control" id="message" rows="4" required></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary">送出</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 易立配股份有限公司．版權所有</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
